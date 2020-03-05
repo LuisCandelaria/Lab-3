@@ -17,6 +17,7 @@ header{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .navbar{
@@ -79,9 +80,6 @@ footer {
 }
 
 @media (max-width:600px){
-  header{
-    text-align: center;
-  }
   .logo{
     width: 100%;
   }
@@ -97,9 +95,6 @@ footer {
 }
 
 @media (min-width: 600px) and (max-width: 900px){
-  header{
-    text-align: center;
-  }
   header > h1{
     text-align: left;
   }
@@ -121,9 +116,6 @@ footer {
 }
 
 @media (min-width: 991px){
-  header{
-    text-align: center;
-  }
   header > h1{
     text-align: left;
   }
